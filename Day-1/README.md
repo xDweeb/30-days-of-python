@@ -148,6 +148,69 @@ Here are some resources that helped me during Day 1:
 - [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
 - [FreeCodeCamp - String Manipulation](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-5)
 
+
+---
+
+### Exercice 1 : Afficher un message (Facile)  
+Demandez à l'utilisateur de saisir son nom et son âge, puis affichez un message de bienvenue.
+
+**Exemple de sortie :**  
+```
+Entrez votre nom: Ali
+Entrez votre âge: 25
+Bienvenue Ali, vous avez 25 ans!
+```
+
+---
+
+### Exercice 2 : Calcul d'une opération arithmétique (Facile)  
+Demandez à l'utilisateur de saisir deux nombres, puis affichez leur somme, différence, produit, division et reste (modulo).
+
+**Exemple de sortie :**  
+```
+Entrez le premier nombre: 15
+Entrez le deuxième nombre: 4
+Somme: 19
+Différence: 11
+Produit: 60
+Division: 3.75
+Modulo: 3
+```
+
+---
+
+### Exercice 3 : Générer un nombre aléatoire (Intermédiaire)  
+Demandez à l'utilisateur d'entrer un nombre entre 1 et 100, puis affichez un nombre aléatoire entre 1 et 100.
+
+**Exemple de sortie :**  
+```
+Entrez un nombre entre 1 et 100: 50
+Nombre généré aléatoirement: 73
+```
+
+---
+
+### Exercice 4 : Afficher le type d'une variable (Intermédiaire)  
+Demandez à l'utilisateur de saisir une valeur, puis affichez le type de la valeur saisie.
+
+**Exemple de sortie :**  
+```
+Entrez une valeur: 25
+Le type de la variable est: <class 'int'>
+```
+
+---
+
+### Exercice 5 : Manipuler les chaînes de caractères (Difficile)  
+Demandez à l'utilisateur de saisir une phrase, puis :
+1. Remplacez tous les espaces par des tirets.
+2. Convertissez la chaîne en majuscules.
+
+**Exemple de sortie :**  
+```
+Entrez une phrase: Bonjour tout le monde
+Résultat: BONJOUR-TOUT-LE-MONDE
+```
 ---
 
 This concludes **Day 1** of my 30-day challenge. Stay tuned for more updates!
