@@ -94,5 +94,3 @@ Feel free to fork this repository and submit pull requests with improvements or 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Would you like to customize anything else in this README?
