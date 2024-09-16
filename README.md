@@ -57,7 +57,7 @@ Each day, I will:
 
 - Learn a new Python concept or tool.
 - Apply the concept through exercises or projects.
-- Document my learning and share my progress on [LinkedIn](https://linkedin.com/in/yourprofile).
+- Document my learning and share my progress on [LinkedIn](https://linkedin.com/in/xdweb).
 
 ### Topics Covered
 
