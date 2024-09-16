@@ -33,6 +33,15 @@ print("Entrez une valeur:")
 valeur = input()
 print("Le type de la valeur est:", type(valeur))
 
+#Exercice 5
+
+print("Entrez une phrase:")
+phrase = input()
+phrase_md = phrase.replace(" ", "_")
+phrase_md = phrase_md.upper()
+print(phrase_md)
+
+
 
 '''
 https://www.w3schools.com/python/python_exercises.asp
