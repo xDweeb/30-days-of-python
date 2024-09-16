@@ -1,0 +1,198 @@
+in day 1 i see 
+print in python
+
+Arithmetic 
+parenthesis    | () |
+exponents      | ** Like os | aw derb juj merat
+multiplication | *
+floor division | // 9isma bla fasila 
+division       | /
+addirion       | +
+subtraaction   | -
+%             | modulos 
+
+
+variables 
+data types
+String == str() or "" or '' | kan7ewlo aya haja l string
+integer == 834 == int() | kan7ewlo aya ra9em string ye3ni raqem
+float == 38.93 
+boolean == True or False
+
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
+
+type() kanjibo type dyal variable
+
+Example	Data Type	Try it
+x = "Hello World"	str	
+x = 20	int	
+x = 20.5	float	
+x = 1j	complex	
+x = ["apple", "banana", "cherry"]	list	
+x = ("apple", "banana", "cherry")	tuple	
+x = range(6)	range	
+x = {"name" : "John", "age" : 36}	dict	
+x = {"apple", "banana", "cherry"}	set	
+x = frozenset({"apple", "banana", "cherry"})	frozenset	
+x = True	bool	
+x = b"Hello"	bytes	
+x = bytearray(5)	bytearray	
+x = memoryview(bytes(5))	memoryview	
+x = None	NoneType	
+
+print(type(x))
+
+Python Numbers
+There are three numeric types in Python:
+Type Conversion
+#convert from int to float:
+x = float(1)
+
+#convert from float to int:
+y = int(2.8)
+
+#convert from int to complex:
+z = complex(1)
+
+print(x)
+print(y)
+print(z)
+
+print(type(x),type(y),type(z))
+
+
+
+int
+float
+complex
+
+Reserved Words
+• You cannot use reserved words as variable names / identifiers
+False,None,True,and,as,assert,break,class,if,def,del,elif,except,return,for,from,global,try,import,in,is,lambda,while,not
+or-pass-raise-finally-continue-non Local-with-yield
+
+comments :
+with ''' or #
+
+we declare variables like this
+x, y, z = "Orange", "Banana", "Cherry"
+
+Global Variables
+
+Random Number bach nekhliw python ygeneri random number
+import random
+
+print(random.randrange(1, 10))
+
+Python Casting
+If you want to specify the data type of a variable, this can be done with casting.
+x = str(3)    # x will be '3'
+
+String
+print("Hello")
+print('Hello')
+
+Strings are Arrays
+kaybdaw men 0
+
+a = "Hello, World!"
+print(a[1])
+
+String Length
+len() kanste3mloha bach n3erfo sting dyalna chhal fih men Herf
+a = "Hello, World!"
+print(len(a))
+
+bach n3erfo chi kelma wax kayna f wahed text li f wahed variable:
+txt = "The best things in life are free!"
+print("free" in txt)  #True	
+
+txt = "The best things in life are free!"
+print("expensive" not in txt) #True
+
+Python - Slicing Strings
+Slicing : bach n printiw dakchi li bghina men dak str li 3endna
+
+b = "Hello, World!"
+print(b[2:5])
+
+bghit n printi 5 character mn ghir akher wahed
+b = "Hello, World!"
+print(b[:5])
+
+
+Slice To the End
+bach neprantiw men 2 l akher 
+b = "Hello, World!"
+print(b[2:])
+
+ila derna - kanbdaw men lekher
+Negative Indexing
+b = "Hello, World!"
+print(b[-5:-2])  #orl
+
+Python - Modify Strings
+Upper Case : bach nredo lkelma maguscule
+a = "Hello, World!"
+print(a.upper())  #HELLO, WORLD!
+
+Lower Case : bach nredo lkelma minuscule
+a = "HeLLo, World!"
+print(a.lower())  #hello, world!
+
+Remove Whitespace : bach nem7iw l espace li f wahed string
+a = " Hello, World! "
+print(a.strip())  #Hello, World!   
+
+Replace String : bach nbadlo kelma f wahed string
+a = "Hello, World!"
+print(a.replace("H", "J")) #Jello, World!
+
+Split String : bach n9esmo string f wahed list
+a = "Hello, World!"
+print(a.split(","))  # returns ['Hello', ' World!']
+
+String Concatenation : bach njem3o string dyalna
+a = "Hello"
+b = "World"
+c = a + b #HelloWorld
+
+
+String Format
+F-Strings : f"{}"
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+
+:2 ila bghina n7eddo 2 arqam mora fasila
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+some site :
+https://learnxinyminutes.com/docs/python/
+https://www.tutorialspoint.com/python/index.htm
+https://www.w3schools.com/python/default.asp
+https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-5
