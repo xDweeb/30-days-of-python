@@ -213,4 +213,16 @@ Résultat: BONJOUR-TOUT-LE-MONDE
 ```
 ---
 
+### Additional Practice Resources
+
+For further practice and to deepen my understanding of Python, I have completed additional exercises on the following platforms:
+
+- [Kaggle - Intro to Programming](https://www.kaggle.com/learn/intro-to-programming)
+- [W3Schools - Python Exercises](https://www.w3schools.com/python/python_exercises.asp)
+- [HackerRank - Python Challenges](https://www.hackerrank.com/domains/python?badge_type=python)
+
+These resources have helped me strengthen my grasp of core Python concepts and provided a wide variety of challenges, ranging from beginner to advanced levels.
+
+---
+
 This concludes **Day 1** of my 30-day challenge. Stay tuned for more updates!
