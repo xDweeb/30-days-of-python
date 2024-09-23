@@ -155,3 +155,39 @@ Python Identity Operators
 Operator	Description	Example	
 is 	Returns True if both variables are the same object	x is y	
 is not	Returns True if both variables are not the same object	x is not y
+
+
+Python Membership Operators
+Operator	Description	Example	
+in 	Returns True if a sequence with the specified value is present in the object	x in y	
+not in	Returns True if a sequence with the specified value is not present in the object	x not in y
+
+Python Bitwise Operators
+Bitwise operators are used to compare (binary) numbers:
+
+Operator	Name	Description	Example	
+& 	AND	Sets each bit to 1 if both bits are 1	x & y	
+|	OR	Sets each bit to 1 if one of two bits is 1	x | y	
+^	XOR	Sets each bit to 1 if only one of two bits is 1	x ^ y	
+~	NOT	Inverts all the bits	~x	
+<<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off	x << 2	
+>>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off	x >> 2
+
+The precedence order is described in the table below, starting with the highest precedence at the top:
+
+Operator	Description	Try it
+()	Parentheses	
+**	Exponentiation	
++x  -x  ~x	Unary plus, unary minus, and bitwise NOT	
+*  /  //  %	Multiplication, division, floor division, and modulus	
++  -	Addition and subtraction	
+<<  >>	Bitwise left and right shifts	
+&	Bitwise AND	
+^	Bitwise XOR	
+|	Bitwise OR	
+==  !=  >  >=  <  <=  is  is not  in  not in 	Comparisons, identity, and membership operators	
+not	Logical NOT	
+and	AND	
+or	OR	
+If two operators have the same precedence, the expression is evaluated from left to right.
+
